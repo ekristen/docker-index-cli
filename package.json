@@ -2,12 +2,11 @@
   "name": "docker-index",
   "author": "Erik Kristensen <erik@erikkristensen.com>",
   "version": "0.0.1",
+  "license": "MIT",
   "main": "./bin/docker-index",
   "dependencies": {
-    "nomnom": "*",
-    "http-signature": "*",
-    "prompt": "*",
-    "request": "*",
+    "nomnom": "~1.6.2",
+    "request": "~2.34.0",
     "easy-table": "~0.3.0"
   }
 }
