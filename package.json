@@ -1,7 +1,7 @@
 {
   "name": "docker-index",
   "author": "Erik Kristensen <erik@erikkristensen.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "bin": {
     "docker-index": "./bin/docker-index"
@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "nodeunit": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
