@@ -1,7 +1,7 @@
 {
   "name": "docker-index-cli",
   "author": "Erik Kristensen <erik@erikkristensen.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "bin": {
     "docker-index": "./bin/docker-index"
