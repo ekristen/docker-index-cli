@@ -26,6 +26,24 @@ This will return a list of users that are in the index database. These users wil
 
 **Usage:** `docker-index listUsers <index>`
 
+## getUser
+
+This will return basic information about a user including whether or not the account is disabled and all their permissions.
+
+**Usage:** `docker-index getUser <user>@<index>`
+  
+## enableUser
+
+This will enable a user in the index. The docker index has a *private* mode that will disable users by default when they login for the first time against the index. Use this function to unblock the account.
+
+**Usage:** `docker-index enableUser <user>@<index>`
+  
+## disableUser
+
+This will disable a user in the index. The account remains, and so does the permission set, but this will trigger an error any time the account is used against the register or the index.
+
+**Usage:** `docker-index disableUser <user>@<index>`
+
 ## listPermissions
 
 List all permissions associated with a user.
