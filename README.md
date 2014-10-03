@@ -1,6 +1,3 @@
-* **Status:** Heavy Development (Alpha)
-* **Warning:** Command Structure may change, under heavy development
-
 # Overview
 
 The command line utility has pre-build commands for interacting with the internal API endpoints of the Docker Index. Endpoints for managing user access levels for various namespaces and repos, this is a critical component in managing your private registry/index.
@@ -17,7 +14,9 @@ The Docker Index is available at https://github.com/ekristen/docker-index.git, i
 
 `npm install -g https://github.com/ekristen/docker-index-cli.git`
 
-* **Note:** I do plan to publish this to the NPM registry once I come out of alpha status.
+OR
+
+`npm install -g docker-index-cli`
 
 # Commands
 
@@ -25,31 +24,40 @@ The Docker Index is available at https://github.com/ekristen/docker-index.git, i
 
 This will return a list of users that are in the index database. These users will have various levels of access to namespaces and repositories.
 
-## addUser
-
-Add a user to the index, once the user has been added permissions can be managed for the user.
+*Usage:* `docker-index listUsers <index>`
 
 ## listPermissions
 
 List all permissions associated with a user.
 
+*Usage:* `docker-index listPermissions <user>@<index>`
+
 ## addPermission
 
 Add an additional permission to a user.
+
+*Usage:* `docker-index addPermission <user>@<index>/<repo> <permission>`
 
 ## removePermission
 
 Remove a permission from a user.
 
-## listIndexes
+*Usage:* `docker-index removePermission <user>@<index>/<repo>`
+
+## listIndices
 
 This will inspect the .dockercfg for your user and list what indexes/registries you have authenticated against.
+
+*Usage:* `docker-index listIndices`
 
 ## listImages
 
 This will list all images that have been pushed to the index. 
 
-## setIndex
+*Usage:* `docker-index listImages <namespace>`
 
-You can use this command to set your default index that the `docker-index` command will use by default, otherwise you will have to specify --index with all commands. This will save the value to ~/.indexcfg.
+## addUser
 
+*Removed in Version 1.0.0*
+
+Add a user to the index, once the user has been added permissions can be managed for the user.
