@@ -24,37 +24,37 @@ OR
 
 This will return a list of users that are in the index database. These users will have various levels of access to namespaces and repositories.
 
-*Usage:* `docker-index listUsers <index>`
+**Usage:** `docker-index listUsers <index>`
 
 ## listPermissions
 
 List all permissions associated with a user.
 
-*Usage:* `docker-index listPermissions <user>@<index>`
+**Usage:** `docker-index listPermissions <user>@<index>`
 
 ## addPermission
 
 Add an additional permission to a user.
 
-*Usage:* `docker-index addPermission <user>@<index>/<repo> <permission>`
+**Usage:** `docker-index addPermission <user>@<index>/<repo> <permission>`
 
 ## removePermission
 
 Remove a permission from a user.
 
-*Usage:* `docker-index removePermission <user>@<index>/<repo>`
+**Usage:** `docker-index removePermission <user>@<index>/<repo>`
 
 ## listIndices
 
 This will inspect the .dockercfg for your user and list what indexes/registries you have authenticated against.
 
-*Usage:* `docker-index listIndices`
+**Usage:** `docker-index listIndices`
 
 ## listImages
 
 This will list all images that have been pushed to the index. 
 
-*Usage:* `docker-index listImages <namespace>`
+**Usage:** `docker-index listImages <namespace>`
 
 ## addUser
 
