@@ -12,11 +12,13 @@ The Docker Index is available at https://github.com/ekristen/docker-index.git, i
 
 # Installation
 
-`npm install -g https://github.com/ekristen/docker-index-cli.git`
-
-OR
+## From NPM Registry (Preferred)
 
 `npm install -g docker-index-cli`
+
+## From Git
+
+`npm install -g ekristen/docker-index-cli`
 
 # Commands
 
