@@ -1,12 +1,14 @@
 {
   "name": "docker-index-cli",
   "author": "Erik Kristensen <erik@erikkristensen.com>",
+  "description": "Command line tool to manage the Docker Index project.",
   "version": "1.1.2",
   "license": "MIT",
   "bin": {
     "docker-index": "./bin/docker-index"
   },
   "main": "./bin/docker-index",
+  "preferGlobal": true,
   "dependencies": {
     "nomnom": "~1.6.2",
     "request": "~2.34.0",
@@ -14,6 +16,10 @@
   },
   "devDependencies": {
     "nodeunit": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekristen/docker-index-cli.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
