@@ -10,6 +10,10 @@ The Docker Index is available at https://github.com/ekristen/docker-index.git, i
 
 * Docker Index (https://github.com/ekristen/docker-index.git)
 
+# Overview
+
+This is currently the tool to manage the https://github.com/ekristen/docker-index project. This tool requires that you have a `.dockercfg` file as it is used to determine which indexes you have configured and it uses the username and password combination to authenticate to the docker-index management API urls.
+
 # Installation
 
 ## From NPM Registry (Preferred)
