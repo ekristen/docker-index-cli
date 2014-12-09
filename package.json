@@ -2,7 +2,7 @@
   "name": "docker-index-cli",
   "author": "Erik Kristensen <erik@erikkristensen.com>",
   "description": "Command line tool to manage the Docker Index project.",
-  "version": "1.1.3",
+  "version": "1.4.0",
   "license": "MIT",
   "bin": {
     "docker-index": "./bin/docker-index"
