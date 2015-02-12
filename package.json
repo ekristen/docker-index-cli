@@ -10,9 +10,10 @@
   "main": "./bin/docker-index",
   "preferGlobal": true,
   "dependencies": {
+    "easy-table": "~0.3.0",
     "nomnom": "~1.6.2",
-    "request": "~2.34.0",
-    "easy-table": "~0.3.0"
+    "rc": "^0.6.0",
+    "request": "~2.34.0"
   },
   "devDependencies": {
     "nodeunit": "*"
