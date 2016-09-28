@@ -1,3 +1,5 @@
+**DEPRECATED:** This project will no longer be receiving updates or fixes, docker has deprecated registry v1, so the docker-index project will be deprecated as well.
+
 # Overview
 
 The command line utility has pre-build commands for interacting with the internal API endpoints of the Docker Index. Endpoints for managing user access levels for various namespaces and repos, this is a critical component in managing your private registry/index.
